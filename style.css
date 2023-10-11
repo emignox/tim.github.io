@@ -52,7 +52,6 @@ i{
 }
 
 .txt-or{
-  margin-left: 20px;
   font-size: 16px;
   color: black;
   width: 34px;
@@ -60,7 +59,7 @@ i{
 }
 
 .st{
-  margin: 0px;
+  margin-left:20px;
   text-align: center;
   background-color: rgba(255, 166, 0, 0.562);
   border-radius: 12px;
@@ -118,30 +117,74 @@ i{
   margin-left: 20px;
 }
 .table{
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(255, 255, 255);
   height: 50px;
   padding: 0px;
   color:rgb(72, 122, 204);;
   font-size: 21px;
-  border-radius: 10px;
+  border-radius: 5px;
   text-align: center;
 border: solid rgb(138, 138, 138) 1px;
 width: 500px;
 
+}
+.sound{
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border:none;
+}
 
+.info{
+  position: relative;
+  bottom: 26px;
+  left: 32px;
+}
+
+.container{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  width: auto;
+  margin-left: 25px;
+  border: 1px solid rgb(218, 218, 218);
+  padding: 15px;
+}
+.container-photo{
+  
+  text-align: left;
+border-radius: 6px;
+box-shadow: 0px 4px 8px rgba(108, 108, 108, 0.2);
+font-size: 15px;
+font-weight: bold;
+padding-bottom: 3px;
+
+
+
+
+
+
+}
+.photo{
+  border-radius: 6px;
+  width: 100%;
 }
 
 
-
+.media{
+  color: rgb(36, 36, 137);
+  border-bottom: 1px rgb(128, 128, 128) solid;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 
+}
 
 body{
   background-color: white;
 }
 
 
-nav{
-height: 50px;
-}
+
