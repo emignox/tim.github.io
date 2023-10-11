@@ -1,0 +1,147 @@
+@media screen and (max-width: 844px){
+ 
+  body{
+    margin: 0px;
+    background-color: rgb(170, 170, 170);
+  }
+i{
+  color: white;
+  padding: 10px; 
+}
+  nav{
+    padding: 15px;
+    display: flex;
+    height: 40px;
+    background-color: rgb(11, 11, 59);
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+.logo{
+  object-fit: contain;
+  width: 50%;
+  height: 30px;
+  
+
+}
+.btn1{
+  border:black solid 1px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  align-self: flex-end;
+  background-color: rgb(112, 18, 18);
+  height: 30px;
+  text-decoration: none;
+  border: none;
+  color: white;
+
+
+}
+
+.petit{
+  margin-top: 0px;
+  padding-left: 12px;
+  display: flex;
+  font-size: 10px;
+
+}
+.flesh{
+  color: rgb(68, 65, 65);
+
+}
+
+.txt-or{
+  margin-left: 20px;
+  font-size: 16px;
+  color: black;
+  width: 34px;
+
+}
+
+.st{
+  margin: 0px;
+  text-align: center;
+  background-color: rgba(255, 166, 0, 0.562);
+  border-radius: 12px;
+  font-weight: bold;
+  width: 120px;
+
+}
+.name{
+  display:flex;
+  padding: 20px;
+  height: 30px;
+  
+
+}
+
+.name2{
+  font-size: 30px;
+  padding-right: 32px;
+}
+.btn2{
+  text-decoration: none;
+  border: 1px solid black;
+  background-color:white;
+  height: 40px;
+  color: rgb(108, 158, 238);
+  border-radius: 5px;
+  font-weight: bold;
+  position: relative;
+  left:46px;
+  top: 22px;
+}
+
+.italic{
+  color: rgb(72, 72, 72);
+  font-size: 12px;
+}
+.bello{
+  display: flex;
+  justify-content: center;
+}
+.dot{
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  color:rgb(108, 158, 238);
+}
+
+.cont{
+  display: flex;
+  padding:12px;
+  width: 100%;
+  justify-content: center;
+
+}
+.space{
+  margin-left: 20px;
+}
+.table{
+  background-color: rgb(240, 240, 240);
+  height: 50px;
+  padding: 0px;
+  color:rgb(72, 122, 204);;
+  font-size: 21px;
+  border-radius: 10px;
+  text-align: center;
+border: solid rgb(138, 138, 138) 1px;
+width: 500px;
+
+
+}
+
+
+
+}
+
+
+
+body{
+  background-color: white;
+}
+
+
+nav{
+height: 50px;
+}
