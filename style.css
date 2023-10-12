@@ -193,7 +193,7 @@ a{
   display: block;
 }
 .text{
-
+  line-height: 1.6;
   margin-left: 10px;
   text-align: center;
   font-size: 25px;
@@ -566,7 +566,7 @@ a{
   margin-left: 20px; 
 }
 .art2{
-
+  line-height: 1.6;
   font-size: 20px;
 }
 .photo4{
