@@ -1,17 +1,22 @@
-@media screen and (max-width: 844px){
+@media (max-width: 843px){
+   .desktop{
+    display: none;
+   }
+
+
+ 
+
   
-  .log{display: none;
-  
-  }
   body{
     margin: 0px;
     background-color: rgb(170, 170, 170);
   }
+
 i{
   color: white;
   padding: 10px; 
 }
-  nav{
+  .mobile{
     padding: 15px;
     display: flex;
     height: 40px;
@@ -164,6 +169,7 @@ padding-bottom: 3px;
 
 
 }
+
 .photo{
   border-radius: 6px;
   width: 100%;
@@ -200,15 +206,10 @@ a{
   text-align: left;
 }
 
-
-
-ul li {display: none;}
-
-
-
-
+.desktop2{
+  display:none;
 }
-
+}
 body{
   background-color: white;
 }
@@ -216,11 +217,361 @@ body{
 
 
 
-@media screen and (min-width: 845px) and (max-width: 1600px) {
+
+/* media desktop*/
+
+@media  (min-width: 845px)  {
   body{
     background-color: white;
   }
 
+.btn4{
+  align-items:end;
+  background-color:rgb(11, 11, 59);
+}
+  
+.pollo{display: none;}
+
+main{
+  width: 50%;
+}
+
+  
+  
+  body{
+    margin: 0px;
+    background-color: rgb(170, 170, 170);
+  }
+
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-list li {
+    display: inline;
+    margin-right: 15px; /* Aggiunge spazio tra gli elementi della lista */
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-left: 40px;
+  }
+
+i{
+  color: white;
+  padding: 10px; 
+}
+.mobile{
+  display: none;
+}
+.desktop {
+  display: flex;
+  align-items: center;
+  background-color: rgb(11, 11, 59);
+  height: 60px;
+}
+
+.logo{
+  text-align: left;
+  width: 200px;
+  height: 30px;
+  float: left;
+  
+
 }
 
 
+
+.btn1{
+  border:black solid 1px;
+  border-radius: 5px;
+  align-self: flex-end;
+  background-color: rgb(112, 18, 18);
+  height: 30px;
+  text-decoration: none;
+  border: none;
+  color: white;
+
+}
+.btn1, .btn4 {
+ position: relative;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 30px;
+  display: inline block;
+}
+.btn4{
+  background-color: transparent;
+  padding: 0pX;
+}
+.position {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Sposta i bottoni verso destra */
+}
+.petit{
+  margin-top: 0px;
+  padding-left: 12px;
+  display: flex;
+  font-size: 10px;
+
+}
+.desktop2{
+  border-left:1px solid rgb(133, 133, 133) ;
+  margin-left:12px ;
+ 
+}
+.british{
+  font-size: 25px;
+  padding-top: 12px;
+  margin-left: 22px;
+
+}
+
+
+.flesh{
+  color: rgb(68, 65, 65);
+
+}
+
+.txtor{
+  font-size: 16px;
+  color: black;
+  width: 34px;
+  display: none;
+
+}
+
+.st{
+  margin-left:20px;
+  text-align: center;
+  background-color: rgba(255, 166, 0, 0.562);
+  border-radius: 12px;
+  font-weight: bold;
+  width: 120px;
+
+}
+.name{
+  display:flex;
+  padding: 20px;
+  height: 30px;
+  
+
+}
+
+.name2{
+  font-size: 30px;
+  padding-right: 32px;
+}
+.btn2{
+  text-decoration: none;
+  border: 1px solid black;
+  background-color:white;
+  height: 40px;
+  color: rgb(108, 158, 238);
+  border-radius: 5px;
+  font-weight: bold;
+  position: relative;
+  left:46px;
+  top: 22px;
+  display: none;
+}
+
+.italic{
+  color: rgb(72, 72, 72);
+  font-size: 12px;
+}
+.bello{
+  display: flex;
+  justify-content: center;
+}
+.dot{
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  color:rgb(108, 158, 238);
+}
+
+.cont{
+  display: flex;
+  padding:12px;
+  width: 100%;
+  justify-content: center;
+  display: none;
+
+}
+.space{
+  margin-left: 20px;
+}
+.table{
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  padding: 0px;
+  color:rgb(72, 122, 204);;
+  font-size: 21px;
+  border-radius: 5px;
+  text-align: center;
+border: solid rgb(138, 138, 138) 1px;
+width: 500px;
+
+}
+.sound{
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border:none;
+}
+
+.info{
+  position: relative;
+  bottom: 26px;
+  left: 32px;
+}
+
+.container{
+  margin-left: 10px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  width: auto;
+  border: 1px solid rgb(218, 218, 218);
+  padding: 15px;
+}
+.container-photo{
+  
+  text-align: left;
+border-radius: 6px;
+box-shadow: 0px 4px 8px rgba(108, 108, 108, 0.2);
+font-size: 15px;
+font-weight: bold;
+padding-bottom: 3px;
+
+
+}
+.photo3{
+  width: 300px;
+  border-radius: 6px;
+}
+a{
+  text-decoration: none;
+}
+
+
+.media{
+  color: rgb(36, 36, 137);
+  border-bottom: 1px rgb(128, 128, 128) solid;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.art{
+  display: block;
+}
+.text{
+
+  margin-left: 10px;
+  text-align: center;
+  word-break: break-all;
+
+
+
+}
+.text1{
+  display: block;
+  font-size: 20px;
+}
+.it{
+  text-align: left;
+}
+
+.cards{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 12px;
+
+
+}
+.card1{
+  text-align: center;
+  border: 1px solid black;
+  margin-left: 15px;
+  height: auto;
+  border-radius: 4px;
+  padding: 12px;
+  width: 50px;
+}
+.card2{
+  text-align: center;
+  border: 1px solid black;
+  margin-left: 15px;
+  height: auto;
+  border-radius: 4px;
+  padding: 12px;
+  width: 50px;
+}
+.card3{
+  text-align: center;
+  border: 1px solid black;
+  margin-left: 15px;
+  height: auto;
+  border-radius: 4px;
+  padding: 12px;
+  width: 50px;
+}
+.card4{
+  text-align: center;
+  border: 1px solid black;
+  margin-left: 15px;
+  height: auto;
+  border-radius: 4px;
+  padding: 12px;
+  width: 50px;
+}
+.card5{
+  text-align: center;
+  border: 1px solid black;
+  margin-left: 15px;
+  height: auto;
+  border-radius: 4px;
+  width: 50px
+  
+}
+.text-photo {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid rgb(100, 100, 100);
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(108, 108, 108, 0.2);
+  padding: 20px;
+  margin-left: 21px;
+
+
+
+}
+
+.content {
+  flex: 1;
+}
+
+.photo3 {
+  margin-left: 20px; 
+}
+.art2{
+
+  font-size: 20px;
+}
+.photo4{
+  width: 320px;
+}
+
+
+}
+
+body{
+  background-color: white;
+}
