@@ -1,4 +1,7 @@
 @media (max-width: 843px){
+
+
+
    .desktop{
     display: none;
    }
@@ -16,7 +19,7 @@ i{
   color: white;
   padding: 10px; 
 }
-  .mobile{
+  .nav-mobile{
     padding: 15px;
     display: flex;
     height: 40px;
@@ -59,7 +62,7 @@ i{
 
 }
 
-.txt-or{
+.txtor{
   font-size: 16px;
   color: black;
   width: 34px;
@@ -220,7 +223,7 @@ body{
 
 /* media desktop*/
 
-@media  (min-width: 845px)  {
+ @media  (min-width: 845px)  {
   body{
     background-color: white;
   }
@@ -250,7 +253,7 @@ main{
   }
   .nav-list li {
     display: inline;
-    margin-right: 15px; /* Aggiunge spazio tra gli elementi della lista */
+    margin-right: 15px; 
   }
   
   .nav-list a {
@@ -264,7 +267,7 @@ i{
   color: white;
   padding: 10px; 
 }
-.mobile{
+.nav-mobile{
   display: none;
 }
 .desktop {
@@ -312,7 +315,7 @@ i{
 .position {
   display: flex;
   align-items: center;
-  margin-left: auto; /* Sposta i bottoni verso destra */
+  margin-left: auto; 
 }
 .petit{
   margin-top: 0px;
@@ -459,6 +462,7 @@ padding-bottom: 3px;
 a{
   text-decoration: none;
 }
+
 
 
 .media{
